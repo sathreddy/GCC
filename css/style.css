@@ -18,6 +18,13 @@
 	    height: auto;
 	}
 
+	.mission
+	{
+	    color: #000000;
+	    width: 80%;
+	    display: inline-block;
+	    text-align: justify;
+	}
 	
 
 	body
@@ -276,7 +283,7 @@
 				position: relative;
 				text-align: center;
 				border-top: solid 1px #ccc;
-				top: 1em;
+				top: 3em;
 			}
 
 				header.major h2
@@ -776,13 +783,15 @@
 
 	.gallery_img
 	{
-	    width: 100%;
+	    max-width: 100%;
 	    max-height: 100%;
 	    height: auto;
+	    width: auto;
 	    left: 0px;
 	    position: absolute;
 	    z-index: 1;
 	}
+
 	#galButton1
 	{
 	    cursor: pointer;
