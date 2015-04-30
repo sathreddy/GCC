@@ -300,8 +300,10 @@
 			.box .image.featured
 			{
 				position: relative;
-				width: auto;
-				height: 25%;
+				width: 100%;
+				max-height: 100%;
+				height: auto;
+				left: 0px;
 			}
 
 	/* Button */
@@ -406,10 +408,37 @@
 					width: auto;
 				}
 
+			.pic_wrapper
+			{
+			        width: 367px;
+				max-width: 367px;
+				height: 421px;
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+			
+			}
+			.aashna
+			{
+			    background-image: url("../images/aashna_bio1.jpg");
+			}
+
+			.akhila
+			{
+			    background-image: url("../images/akhila_bio1.jpg");
+			}
+			.john
+			{
+			    background-image: url("../images/john_bio1.jpg");
+			}
+			
 			.image.featured
 			{
-				display: block;
-				width: 100%;
+				/*display: block;*/
+			        width: 100%;
+				max-height: 100%;
+				height: auto;
+				left: 0px;
 				margin: 0 0 2em 0;
 			}
 			
