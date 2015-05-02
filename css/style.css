@@ -332,7 +332,7 @@
 			cursor: pointer;
 			border: 0;
 			border-radius: 5px;
-			background: #d52349;
+			background: #252122;
 			color: #fff !important;
 			font-weight: 700;
 			outline: 0;
@@ -359,9 +359,81 @@
 				background: #c51349;
 			}
 		
-			input[type="button"].alt,
-			input[type="submit"].alt,
-			input[type="reset"].alt,
+			input[type="button"].alt1,
+			input[type="submit"].alt1,
+			input[type="reset"].alt1,
+			.button.alt1
+			{
+				background: #F1A91E;
+			}
+
+				input[type="button"].alt1:hover,
+				input[type="submit"].alt1:hover,
+				input[type="reset"].alt1:hover,
+				.button.alt1:hover
+				{
+					background: #F3B621;
+				}
+				
+				input[type="button"].alt1:active,
+				input[type="submit"].alt1:active,
+				input[type="reset"].alt1:active,
+				.button.alt1:active
+				{
+					background: #151112;
+				}
+
+				input[type="button"].alt2,
+				input[type="submit"].alt2,
+				input[type="reset"].alt2,
+				.button.alt2
+				{
+					background: #4579BD;
+				}
+
+				input[type="button"].alt2:hover,
+				input[type="submit"].alt2:hover,
+				input[type="reset"].alt2:hover,
+				.button.alt2:hover
+				{
+					background: #259FCB;
+				}
+				
+				input[type="button"].alt2:active,
+				input[type="submit"].alt2:active,
+				input[type="reset"].alt2:active,
+				.button.alt2:active
+				{
+					background: #151112;
+				}
+
+			input[type="button"].alt3,
+			input[type="submit"].alt3,
+			input[type="reset"].alt3,
+			.button.alt3
+			{
+				background: #68BD45;
+			}
+
+				input[type="button"].alt3:hover,
+				input[type="submit"].alt3:hover,
+				input[type="reset"].alt3:hover,
+				.button.alt3:hover
+				{
+					background: #7CC242;
+				}
+				
+				input[type="button"].alt3:active,
+				input[type="submit"].alt3:active,
+				input[type="reset"].alt3:active,
+				.button.alt3:active
+				{
+					background: #151112;
+				}
+			input[type="button"].alt3,
+			input[type="submit"].alt3,
+			input[type="reset"].alt3,
+			
 			.button.alt
 			{
 				background: #252122;
