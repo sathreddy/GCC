@@ -29,7 +29,7 @@
 
 	body
 	{
-		background: url("bg02.png");
+		background: url("../images/bg02.png");
 	}
 
 		body.is-loading * {
