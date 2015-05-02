@@ -470,14 +470,14 @@
 		{
 			margin: 0;
 		}
-	
-		#intro .middle
+		
+		.middle
 		{
 			position: relative;
 			z-index: 1;
 		}
 		
-			#intro .middle:before
+			.middle:before
 			{
 				content: '';
 				width: 32px;
@@ -495,7 +495,7 @@
 								0 0 32px 0 rgba(0,0,0,0.15);
 			}
 
-			#intro .middle:after
+			.middle:after
 			{
 				content: '';
 				width: 32px;
