@@ -25,17 +25,11 @@
 	    display: inline-block;
 	    text-align: justify;
 	}
-
-	.icon
-	{
-	    width: 50%;
-	    display: block;
-	    margin: auto;
-	}
+	
 
 	body
 	{
-		background: url("../images/bg02.png");
+		background: url("bg02.png");
 	}
 
 		body.is-loading * {
@@ -687,7 +681,7 @@
 		{
 			position: relative;
 			display: inline-block;
-			background-color: #F1A91E;
+			background-color: #d52349;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -709,29 +703,29 @@
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #F1A91E;
+				border-top: solid 2em #d52349;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
 
 			.icon.featured.alt
 			{
-				background-color: #4579BD;
+				background-color: #252122;
 			}
 			
 				.icon.featured.alt:after
 				{
-					border-top-color: #4579BD;
+					border-top-color: #252122;
 				}
 
 			.icon.featured.alt2
 			{
-				background-color: #68BD45;
+				background-color: #827a7c;
 			}
 			
 				.icon.featured.alt2:after
 				{
-					border-top-color: #68BD45;
+					border-top-color: #827a7c;
 				}
 							
 /*********************************************************************************/
@@ -776,7 +770,7 @@
 	    width: 75%;
 	    text-align: center;
 	    margin: 0 auto;
-	    display: block;
+	    display: inline-block;
 	}
 			
 	.gallery
