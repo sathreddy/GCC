@@ -19,6 +19,7 @@
 		<script src="js/gallery.js"></script>
 		<script src="js/mobile.js"></script>
 		<script src="js/expand.js"></script>
+		<script src="js/scroll.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -45,11 +46,11 @@
 						</h1>
 					        <nav id="nav">
 						        <ul>
-							        <li class="current"><a href="#intro">About Us</a></li>
-								<li><a href="#om">Our Mission</a></li>
-								<li><a href="#wwb">What We Do</a></li>
-								<li><a href="#gal_link">Gallery</a></li>
-								<li><a href="#team">The Team</a></li>
+							        <li id="nav1"><a href="#intro">About Us</a></li>
+								<li id="nav2"><a href="#om">Our Mission</a></li>
+								<li id="nav3"><a href="#wwb">What We Do</a></li>
+								<li id="nav4"><a href="#gal_link">Gallery</a></li>
+								<li id="nav5"><a href="#team">The Team</a></li>
 							</ul>
 						</nav>
 
@@ -63,12 +64,13 @@
 
 					<!-- Intro -->
 						<section class="container">
-						        <header class="major">
+						        <div id="about_us">
+							<header class="major">
 							        <h2 id="intro">About Us</h2>
 								<p>See how our workshops influence children in India</p>
 							</header>
 							<video poster="images/42.jpg" class="video" src="videos/WinterWorkshop.mp4" autobuffer="autobuffer" controls="controls"></video>
-
+							</div>
 							<header class="major">
 							        <h2 id="om">Our Mission</h2>
 							</header>
