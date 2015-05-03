@@ -1,13 +1,19 @@
-$(document).ready(function(){
+$(window).load(function(){
+    //the 15 makes the transition from unsticky to sticky navbar smoother
     var topOffset = $(".logo").height() - 15;
     var aboutOffset = 0;
-    var missionOffset = parseInt($("#om").position().top);
-    var whatOffset = parseInt($("#wwb").position().top);
-    var galleryOffset = parseInt($("#gal_link").position().top) + $(".mission").height();
-    var teamOffset = parseInt($("#team").position().top);
+
+    //this below corrects for the sticky navbar
+    var correction = $("#nav").height() + 30;
+    console.log(correction);
     
     var stickify = function(){
 	var scrollOffset = $(window).scrollTop();
+
+	var missionOffset = parseInt($("#om").offset().top) - correction;
+	var whatOffset = parseInt($("#wwb").offset().top) - correction;
+	var galleryOffset = parseInt($("#gal_link").offset().top) - correction;
+	var teamOffset = parseInt($("#team").offset().top) - correction;
 
 	if(scrollOffset > topOffset){
 	    $("#nav").addClass("sticky");
