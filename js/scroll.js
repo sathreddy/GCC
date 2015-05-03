@@ -1,10 +1,10 @@
 $(document).ready(function(){
     var topOffset = $(".logo").height() - 15;
     var aboutOffset = 0;
-    var missionOffset = $("#om").position().top;
-    var whatOffset = $("#wwb").position().top;
-    var galleryOffset = $("#gal_link").position().top + $(".mission").height();
-    var teamOffset = $("#team").position().top;
+    var missionOffset = parseInt($("#om").position().top);
+    var whatOffset = parseInt($("#wwb").position().top);
+    var galleryOffset = parseInt($("#gal_link").position().top) + $(".mission").height();
+    var teamOffset = parseInt($("#team").position().top);
     
     var stickify = function(){
 	var scrollOffset = $(window).scrollTop();
@@ -56,4 +56,3 @@ $(document).ready(function(){
     });
     
 });
-
