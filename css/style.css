@@ -33,6 +33,12 @@
 	    margin: auto;
 	}
 
+	.sponsors
+	{
+	    width: 60%;
+	    height: auto;
+	}
+	
 	body
 	{
 		background: url("../images/bg02.png");
