@@ -276,6 +276,7 @@
 		{
 		        display: inline-block;
 			font-weight: 400;
+			font-style: italic;
 			margin: 0 0.35em 0 0.35em;
 			z-index: 1;
 		}
