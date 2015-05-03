@@ -3,8 +3,6 @@ var pageloadheight;
 var first;
 
 var resize = function($img, $gallery, first){
-    //gwidth = $gallery.width();
-    //gheight = $gallery.height();
     if(first){
 	pageloadwidth = $gallery.width();
 	pageloadheight = $gallery.height();
@@ -16,8 +14,8 @@ var resize = function($img, $gallery, first){
     }
     iwidth = $img.width;
     iheight = $img.height;
-    wdivider = (pageloadwidth - iwidth) / 2;
-    divider = (pageloadheight - iheight) / 2;
+    wdivider = ($gallery.width() - iwidth) / 2;
+    divider = ($gallery.height() - iheight) / 2;
     if(iwidth > iheight){
 	$($img).css('width', pageloadwidth);
 	$($img).css('top', divider + "px");
