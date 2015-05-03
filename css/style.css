@@ -38,6 +38,23 @@
 	    width: 60%;
 	    height: auto;
 	}
+
+	.blog.image.featured
+	{
+	    margin: 0 0 0 0;
+	}
+
+	.blog
+	{
+	    text-align: center;
+	}
+	
+	.blog_pic
+	{
+	    width: 100%;
+	    height: auto;
+	    margin: 0 0 -1em;
+	}
 	
 	body
 	{
@@ -464,6 +481,7 @@
 		
 			.button.icon
 			{
+			    width: 100%;
 			}
 			
 				.button.icon:before
