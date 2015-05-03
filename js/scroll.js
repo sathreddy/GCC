@@ -54,6 +54,15 @@ $(window).load(function(){
 	    $("#nav5").removeClass("current");
 	}
 
+	//we're actually detecting if the user is at the bottom of the page
+	//here. Contact info is too far down to reach by scrolling
+	if(scrollOffset + $(window).height() == $(document).height()){
+	    $("#nav6").addClass("current");
+	    $("#nav5").removeClass("current");
+	} else {
+	    $("#nav6").removeClass("current");
+	}
+
     };
 
     $(window).scroll(function(){

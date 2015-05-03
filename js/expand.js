@@ -13,7 +13,7 @@ var expand = function(button_id, full_text){
     } else {
 	var new_text = curr_text + " " + full_text;
 	$(id).text(new_text);
-	$(button_id).text("Find out less");
+	$(button_id).text("Show less");
     }
 };
 
