@@ -275,7 +275,7 @@
 		#nav > ul > li
 		{
 		        display: inline-block;
-			font-style: italic;
+			font-weight: 400;
 			margin: 0 0.35em 0 0.35em;
 			z-index: 1;
 		}
@@ -321,7 +321,7 @@
 			{
 			    background: #EA3723;
 				color: #fff !important;
-				font-weight: 700;
+				font-weight: 600;
 			}
 			
 	.dropotron

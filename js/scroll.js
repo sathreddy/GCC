@@ -5,7 +5,6 @@ $(window).load(function(){
 
     //this below corrects for the sticky navbar
     var correction = $("#nav").height() + 30;
-    console.log(correction);
     
     var stickify = function(){
 	var scrollOffset = $(window).scrollTop();
