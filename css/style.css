@@ -430,10 +430,11 @@
 				{
 					background: #151112;
 				}
+
 			input[type="button"].alt3,
 			input[type="submit"].alt3,
 			input[type="reset"].alt3,
-			
+
 			.button.alt
 			{
 				background: #252122;
@@ -1010,5 +1011,5 @@
 			background: #2C2929;
 			background: rgba(255,255,255,0.05);
 			border-radius: 5px;
-			margin: 0;
+			margin-top: -1000px;
 		}
