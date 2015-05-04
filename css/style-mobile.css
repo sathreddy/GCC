@@ -269,6 +269,11 @@
 		overflow: hidden;
 		-webkit-transform: translateZ(0);
 	}
+
+	.pic_wrapper
+	{
+	    width: 367px;
+	}
 	
 /*********************************************************************************/
 /* Intro                                                                         */
