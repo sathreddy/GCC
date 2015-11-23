@@ -93,6 +93,7 @@
 	    height: auto;
 	    margin: 0 0 -1em;
 	}
+
 	
 	body
 	{
@@ -167,7 +168,7 @@
 		color: #d52349;
 		text-decoration: underline;
 	}
-	
+
 		a:hover
 		{
 			text-decoration: none;
@@ -191,6 +192,34 @@
 		margin-bottom: 1.5em;
 	}
 
+	@font-face {
+		font-family: 'Anders-Font';
+		src: url('fonts/Anders.ttf') 
+	}
+	
+	.HackDaylogo-text {
+		font-family: 'Anders';
+	}
+
+	#hack-pic {
+		display: inline-block;
+		width: 100%;
+		margin: 0px 0px 0px 0px;
+		height: 
+	}
+
+	.p-article {
+		margin:0px;
+		padding-top: 0em;
+		padding-left: 2em;
+		padding-right: 2em;
+		padding-bottom: 1em;
+	}
+
+	#events {
+		width: 50%;
+		margin: 0 auto;
+	}
 	/* Form */
 	
 		form
@@ -392,7 +421,7 @@
 			cursor: pointer;
 			border: 0;
 			border-radius: 5px;
-			background: #252122;
+			background: #d52349;;
 			color: #fff !important;
 			font-weight: 700;
 			outline: 0;
@@ -594,6 +623,22 @@
 				margin: 0 2em 2em 0;
 			}
 
+			#feat_TNIE {
+				margin-left: 30px;
+				width: 400px;
+				margin-bottom: 20px;
+			}
+
+			#feat_expressTV {
+				margin-left: 50px;
+				width: 200px;
+			}
+
+			#feat_sc {
+				margin-left: 60px;
+				width: 400px;
+			}
+
 	/* List */
 
 		ul
@@ -650,12 +695,19 @@
 			{
 			}
 			
-				ul.dates li
+				ul.dates .line
 				{
 					position: relative;
 					border-top: solid 1px #ddd;
 					padding: 1.3em 0 1.3em 6.75em;
 				}
+
+				ul.dates .no-line
+				{
+					position: relative;
+					padding: 1.3em 0 1.3em 6.75em;
+				}
+
 
 				ul.dates .date
 				{
@@ -691,6 +743,41 @@
 						padding-top: 0.15em;
 					}
 					
+
+				ul.dates .hack
+				{
+					display: block;
+					position: absolute;
+					left: 0;
+					top: 1.3em;
+					background-color: #EA3723;
+					height: 2.5em;
+					text-align: center;
+					color: #fff;
+					line-height: 1em;
+					border-top-left-radius: 5px;
+					border-bottom-left-radius: 5px;
+					padding: 0.7em 0.75em 0 1em;
+				}
+
+					ul.dates .hack:after
+					{
+						content: '';
+						position: absolute;
+						bottom: 0;
+						right: -1.2em;
+						border-left: solid 1.25em #EA3723;
+						border-top: solid 1.26em transparent;
+						border-bottom: solid 1.27em transparent;
+					}
+				
+					ul.dates .hack strong
+					{
+						display: block;
+						font-size: 1.75em;
+						padding-top: 0.15em;
+					}
+
 				ul.dates h3
 				{
 					font-size: 1.1em;
@@ -701,13 +788,31 @@
 					margin: 0;
 				}
 
-				ul.dates li:first-child
+				ul.dates li:first-child 
 				{
 					border-top: 0;
 					padding-top: 0;
 				}
+
+				ul.dates li.no-line:first-child 
+				{
+					border-top: 1.3em;
+					padding-top: 0;
+				}
+
 				
-					ul.dates li:first-child .date
+					ul.dates li:first-child .hack
+					{
+						top: 0;
+					}
+								ul.dates li:first-child 
+				{
+					border-top: 0;
+					padding-top: 0;
+				}
+
+				
+					ul.dates li.line:first-child .date
 					{
 						top: 0;
 					}
@@ -983,6 +1088,14 @@
 			    background: #f7f7f7;
 			}
 	
+	#center {
+		margin: 0 auto;
+		width: 50%;
+	}
+	#footer-button {
+		margin: auto;
+		width: 20%;
+	}
 	#footer-wrapper
 	{
 		position: relative;
@@ -1046,7 +1159,7 @@
 			border-top-color: #353434;
 			border-top-color: rgba(255,255,255,0.05);
 		}
-		
+
 /*********************************************************************************/
 /* Intro                                                                         */
 /*********************************************************************************/

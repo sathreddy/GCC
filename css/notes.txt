@@ -1,0 +1,13 @@
+index.html
+1. Supporters and partners image needs to be updated. 
+2. Tech Mahindra needs to be added. 
+3. floating nav bar needs to have new tab: Featured In
+
+no-sidebar.html: 
+1. hack day title fonts needs to be changed
+2. link tabs needs to be added: About/ FAQ/ Schedule
+3. header picture needs to be added hack-pic.jpg in images
+4. headers between sections <About> <FAQ> <schedule> 
+5. add mentor/ participant registration/ sponsors/ judges sections
+6. update footer 
+
