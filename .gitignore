@@ -1,4 +1,7 @@
 # ignore fonts and images and videos folders
+fonts
 fonts/*
+images
 images/*
+videos
 videos/*
