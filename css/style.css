@@ -391,6 +391,23 @@
 					padding: 0 1em 0 1em;
 				}
 
+			.buttons_holder
+			{
+			        width: 50%;
+			        display: inline-block;
+			}
+			.left
+			{
+			        display: table-cell;
+			        float: left;
+			}
+
+			.right
+			{
+			        display: table-cell;
+			        float: right;
+			}
+
 	/* Box */
 
 		.box
