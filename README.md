@@ -29,8 +29,8 @@ sudo pip3 install css-html-js-minify
 
 Install with WGET:
 ```
-sudo wget -O /usr/bin/css-html-js-minify https://raw.githubusercontent.com/juancarlospaco/css-html-js-minify/master/css-html-js-minify.py
-sudo chmod +x /usr/bin/css-html-js-minify
+sudo wget -O /usr/bin/css-html-js-minify.py https://raw.githubusercontent.com/juancarlospaco/css-html-js-minify/master/css-html-js-minify.py
+sudo chmod +x /usr/bin/css-html-js-minify.py
 ```
 
 Once you've successfully installed the minifier, you can run the build script. 
