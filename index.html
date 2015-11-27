@@ -49,13 +49,13 @@
 	</h1>
 	<nav id="nav">
 	  <ul>
-	    <li id="nav1"><a href="#intro">About Us</a></li>
+	    <li id="nav1" class="old"><a href="#intro">About Us</a></li>
 	    <li id="nav2" class="new"><a href="#ghd"><span>NEW  </span>GCC Hack Day</a></li>
-	    <li id="nav3"><a href="#om">Our Mission</a></li>
-	    <li id="nav4"><a href="#wwb">What We Do</a></li>
-	    <li id="nav5"><a href="#gal_link">Gallery</a></li>
-	    <li id="nav6"><a href="#team">The Team</a></li>
-	    <li id="nav7"><a href="#footer">Contact Us</a></li>
+	    <li id="nav3" class="old"><a href="#om">Our Mission</a></li>
+	    <li id="nav4" class="old"><a href="#wwb">What We Do</a></li>
+	    <li id="nav5" class="old"><a href="#gal_link">Gallery</a></li>
+	    <li id="nav6" class="old"><a href="#team">The Team</a></li>
+	    <li id="nav7" class="old"><a href="#footer">Contact Us</a></li>
 	  </ul>
 	</nav>
 	
@@ -76,9 +76,13 @@
 	    </header>
 	    <p>See how our workshops influence children in India.</p>
 	    <div class="video-container">
-	      <aside class="video">
-		<iframe width="853" height="480" src="https://www.youtube.com/embed/kjAJf_qLWe4" frameborder="0" allowfullscreen></iframe>
-	      </aside>
+	      <!-- If there are sizing issues with the video, the height and -->
+	      <!-- width of video are hardcoded in "gallery.js" so check there. -->
+	      <div class="video youtube" id="kjAJf_qLWe4" data-params="modestbranding=1&rel=0&showinfo=0" style="width: 853px; height: 480px;">
+	      </div>
+	      <!-- <aside class="video"> -->
+		<!-- <iframe width="853" height="480" src="https://www.youtube.com/embed/kjAJf_qLWe4" frameborder="0" allowfullscreen></iframe> -->
+	      <!-- </aside> -->
 	    </div>
 	  </div>
 	  <a class="anchor" id="ghd"></a>
@@ -365,11 +369,11 @@
 		<li><a class="icon fa-youtube" href="https://www.youtube.com/channel/UCW06F4UoZgAVK8c4H6JdGwA" target="_top"><span class="label">LinkedIn</span></a></li>
 		<li><a class="icon fa-medium" href="https://medium.com/@GirlsCodeCamp" target="_top"><span class="label" target="_top">Medium</span></a></li>
 		<li><a class="icon fa-google-plus" href="https://plus.google.com/117068793643542608948/posts" target="_top"><span class="label">Google+</span></a></li>
-		<p>
-		  <h4>
-		    Want to chat? Or know of a school or organization we should visit? Let us know! </h4>
-		</p>
 	      </ul>
+	      <p>
+		<h4>
+		  Want to chat? Or know of a school or organization we should visit? Let us know! </h4>
+	      </p>
 	      <ul class="contact">
 		<li>
 		  <h3>Email</h3>
