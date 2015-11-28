@@ -348,7 +348,7 @@
 				color: #fff !important;
 				font-weight: 600;
 			}
-			#nav > ul > #nav2 > a > span
+			#nav > ul > .new > a > span
 			{
 			        font-size: 12px;
 			        color: #F4FF00;
@@ -359,9 +359,14 @@
 		{
 		}
 		
-			#nav > ul > li:hover > a
+			#nav > ul > li.old:hover > a
 			{
 				background: #f3f3f3;
+			}
+
+			#nav > ul > li.new:hover > a
+			{
+			        background: #CC65FE;
 			}
 			
 		#nav > ul > li.active
