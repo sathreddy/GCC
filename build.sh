@@ -12,7 +12,9 @@ for file in *.html; do
     # mv "$file" "$(basename ${file} .html).htm"
 done
 
-rm *.md && rm *.txt && rm *.sh
+rm *.md && rm *.txt && rm *.sh && rm .gitignore
+
+rm -rf .git && rm -rf videos
 
 # css-html-js-minify.py $(realpath ./) && rm *.htm
 
