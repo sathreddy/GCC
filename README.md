@@ -33,8 +33,15 @@ sudo wget -O /usr/bin/css-html-js-minify.py https://raw.githubusercontent.com/ju
 sudo chmod +x /usr/bin/css-html-js-minify.py
 ```
 
+Install with curl:
+```
+sudo curl -o /usr/bin/css-html-js-minify.py https://raw.githubusercontent.com/juancarlospaco/css-html-js-minify/master/css-html-js-minify.py
+sudo chmod +x /usr/bin/css-html-js-minify.py
+```
+
 Once you've successfully installed the minifier, you can run the build script. 
 ```
+sudo chmod +x build.sh
 ./build.sh
 ```
 It will create a `build/` directory from which you can access the compressed version of the website
