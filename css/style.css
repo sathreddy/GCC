@@ -649,10 +649,10 @@
 			.pic_wrapper2
 
 			{
-			      width: 100%;
-				height: 180px;
+			    margin-left: auto ;
+  				margin-right: auto ;
+				height: 200px;
 				position: relative;
-				display: inline-block;
 				vertical-align: middle;
 			
 			}
