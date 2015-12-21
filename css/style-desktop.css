@@ -110,6 +110,13 @@
 				margin-left: 2%;
 			}
 
+			#box3 {
+				padding:0px;
+				width: 15%;
+				display: inline-block;
+				margin-left: 4%;
+			}
+
 			#box2 {
 				width: 45%;
 				display: inline-block;

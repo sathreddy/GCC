@@ -398,6 +398,10 @@
 		{
 		}
 
+			.hack_team_header {
+				margin: 0px;
+			}
+
 			header > p
 			{
 				display: block;
@@ -641,6 +645,18 @@
 				vertical-align: middle;
 			
 			}
+
+			.pic_wrapper2
+
+			{
+			      width: 100%;
+				height: 180px;
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+			
+			}
+
 			.aashna
 			{
 			    background-image: url("../images/aashna_bio1.jpg");
@@ -653,6 +669,49 @@
 			.john
 			{
 			    background-image: url("../images/john_bio1.jpg");
+			}
+
+			.hack_aashna {
+				background-image: url("../images/aashna3.jpg");
+			}
+
+			.hack_trishna {
+				background-image: url("../images/trishna.jpg");
+			}
+
+			.hack_nachiket {
+				background-image: url("../images/nachiket.jpg");
+			}
+
+			.hack_shreya {
+				background-image: url("../images/shreya.jpg");
+			}
+
+			.hack_surya {
+				background-image: url("../images/surya.jpeg");
+			}
+
+			.hack_avidant {
+				background-image: url("../images/avidant.jpeg");
+			}
+
+			.hack_kedari {
+				background-image: url("../images/kedari.jpeg");
+			}
+
+			.hack_kruthi {
+				background-image: url("../images/kruthi.jpeg");
+			}
+
+			.hack_prathyusha {
+				background-image: url("../images/prathyusha.jpeg");
+			}
+
+
+
+			.hack_team_info {
+				padding: 4%;
+				text-align: center;
 			}
 			
 			.image.featured
