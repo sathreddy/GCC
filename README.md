@@ -18,15 +18,6 @@ We use a build script and a minifier called [css-html-js-minify](https://github.
 You will need to install the minifier before you can run the build script. Since the minifier is written in Python 3,
 you must have Python 3 installed on your system as well.
 
-Install from PIP:
-```
-sudo pip install css-html-js-minify
-```
-or
-```
-sudo pip3 install css-html-js-minify
-```
-
 Install with WGET:
 ```
 sudo wget -O /usr/bin/css-html-js-minify.py https://raw.githubusercontent.com/juancarlospaco/css-html-js-minify/master/css-html-js-minify.py
