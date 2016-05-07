@@ -31,3 +31,8 @@ rm -rf .git && rm -rf videos
 cd js && "$PYT" /usr/bin/css-html-js-minify.py $(realpath ./)
 
 cd ../css && "$PYT" /usr/bin/css-html-js-minify.py $(realpath ./)
+
+cd ..
+
+cp -r ./js/* ../js/
+cp -r ./css/* ../css/

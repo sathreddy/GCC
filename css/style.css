@@ -649,6 +649,7 @@
 			.pic_wrapper2
 
 			{
+				width: 100%;
 			    margin-left: auto ;
   				margin-right: auto ;
 				height: 200px;
@@ -703,17 +704,39 @@
 				background-image: url("../images/kruthi.jpeg");
 			}
 
+			.hack_viraat {
+				background-image: url("../images/viraat.jpg");
+			}
+
+			.hack_vachan {
+				background-image: url("../images/vachan.jpeg");
+			}
+
+			.hack_stuti {
+				background-image: url("../images/stuti.jpeg");
+			}
+
+			.hack_monica {
+				background-image: url("../images/monica.jpeg");
+			}
+
 			.hack_prathyusha {
 				background-image: url("../images/prathyusha.jpeg");
 			}
 
-
+			.hack_ridhi {
+				background-image: url("../images/ridhi.jpeg");
+			}
 
 			.hack_team_info {
 				padding: 4%;
 				text-align: center;
 			}
 			
+			.hack_partner {
+				width: 20%;
+				margin-right: 10%;
+			}
 			.image.featured
 			{
 				/*display: block;*/

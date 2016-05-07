@@ -68,6 +68,10 @@
 		{
 			padding: 25px 15px 20px 15px;
 		}
+
+		#box2 {
+			width: 100%;
+		}
 		
 			.box .image.featured
 			{
